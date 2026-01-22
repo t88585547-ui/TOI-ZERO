@@ -14,7 +14,7 @@ while (true) {
 
         if (input1.trim() === "" || isNaN(input1)) {
            throw new Error("กรอกตัวเลข");
-        } ;
+        };
 
         const input2 = prompt(": ");
 
@@ -37,4 +37,8 @@ while (true) {
         console.log(`Error: ${error.message}`);
     };
 
-}
+};
+
+const maxnum = Math.max(num1, num2, num3);
+
+console.log(maxnum);
